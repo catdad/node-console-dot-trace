@@ -10,7 +10,7 @@
 [4]: https://img.shields.io/npm/l/console-dot-trace.svg
 [5]: http://spdx.org/licenses/ISC
 
-A polyfil for the `console.trace` function you may be used to in the browser.
+A polyfill for the `console.trace` function you may be used to in the browser.
 
 ## Install
 
@@ -45,9 +45,9 @@ trace('descriptive stack name');
 
 ## More info
 
-For more inforation on using `console.trace`, see the [Console API](https://developer.chrome.com/devtools/docs/console-api) in teh Chrome Developer Reference.
+For more information on using `console.trace`, see the [Console API](https://developer.chrome.com/devtools/docs/console-api) in the Chrome Developer Reference.
 
-If you need more adavances or programmatic stack parsing, see [`node-stack-trace`](https://github.com/felixge/node-stack-trace).
+If you need more advances or programmatic stack parsing, see [`node-stack-trace`](https://github.com/felixge/node-stack-trace).
 
 ## License
 

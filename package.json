@@ -1,6 +1,6 @@
 {
   "name": "console-dot-trace",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "console.trace for NodeJS",
   "main": "index.js",
   "scripts": {

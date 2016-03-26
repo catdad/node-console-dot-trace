@@ -18,18 +18,31 @@ A polyfil for the `console.trace` function you may be used to in the browser.
     
 ## Usage
 
-All you have to do is require the module. It will make `console.trace` available in your application.
+All you have to do is require the module and execute it. It will make `console.trace` available in your application.
 
-    require('console-dot-trace');
-    
+```javascript
+require('console-dot-trace')();
+```
+
 Use anywhere in your application as:
 
-    console.trace();
-    
+```javascript
+console.trace();
+```
+
 You can also name stack traces:
 
-    console.trace('descriptive stack name');
-    
+```javascript
+console.trace('descriptive stack name');
+```
+
+Prefer not to modify the native `console` object?
+
+```javascript
+var trace = require('console-dot-trace').trace;
+trace('descriptive stack name');
+```
+
 ## More info
 
 For more inforation on using `console.trace`, see the [Console API](https://developer.chrome.com/devtools/docs/console-api) in teh Chrome Developer Reference.

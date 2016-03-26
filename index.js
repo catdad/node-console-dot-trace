@@ -23,8 +23,8 @@ function trace() {
     console.log(prepareStack(obj.stack, traceName(args)));
 }
 
-if (console) {
+module.exports = function() {
     console.trace = trace;
-} else {
-    module.exports = trace;
-}
+};
+
+module.exports.trace = trace;

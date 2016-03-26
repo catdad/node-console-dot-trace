@@ -1,5 +1,15 @@
 # node-console-dot-trace
 
+[![Downloads][1]][2] [![Version][3]][2] [![ISC License][4]][5] 
+
+[1]: https://img.shields.io/npm/dm/console-dot-trace.svg
+[2]: https://www.npmjs.com/package/console-dot-trace
+
+[3]: https://img.shields.io/npm/v/console-dot-trace.svg
+
+[4]: https://img.shields.io/npm/l/console-dot-trace.svg
+[5]: http://spdx.org/licenses/ISC
+
 A polyfil for the `console.trace` function you may be used to in the browser.
 
 ## Install

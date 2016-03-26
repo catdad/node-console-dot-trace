@@ -1,11 +1,23 @@
 {
   "name": "console-dot-trace",
   "version": "0.0.1",
-  "description": "",
+  "description": "console.trace for NodeJS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kiril Vatev <vatev.1@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catdad/node-console-dot-trace.git"
+  },
+  "keywords": [
+    "console",
+    "trace"
+  ],
+  "bugs": {
+    "url": "https://github.com/catdad/node-console-dot-trace/issues"
+  },
+  "homepage": "https://github.com/catdad/node-console-dot-trace#readme"
 }
